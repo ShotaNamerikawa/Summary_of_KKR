@@ -116,7 +116,7 @@ KKR-GF法で必要となるのは通常1つまたは2つのサイトに不純物
 ## LMTO法との関連について
 最後にLMTO法との関連について触れておきたい。
 実はKKR法とLMTO法には密接な関連がある。(See Skliver or I.Turek)
-LMTOはKKRをエネルギー線形化した方法としてO.K Andersenによって提唱された。(O.K. Andersenは同じ論文でAugumented Plane Wave methodを線形化する方法も示している。)
+LMTOはKKRをエネルギー線形化した方法としてO.K. Andersenによって提唱された。(O.K. Andersenは同じ論文でAugumented Plane Wave methodを線形化する方法も示している。)
 
 LMTO法ではポテンシャル関数と呼ばれる境界条件のlogarithmistc derivativeから決まる量をパラメトライズすることでエネルギーに関する線形化を行っている。
 
