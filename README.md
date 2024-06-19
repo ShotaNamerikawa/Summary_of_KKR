@@ -20,22 +20,20 @@ KKR-Green関数法(以下KKR-GF法)は多重散乱理論に基づき、固体あ
 
 KKR-GF法ではグリーン関数は
 ```math
-G(E, \vec{r},\vec{r}') =　Z^{n}(E,\vec{r}) \tau^{nn} (E) \tilde{Z}^{n \bullet}(E,\vec{r'}) - Z^{n}(E,\vec{r})  \tilde{J}^{n \bullet}(E,\vec{r'})\ (\vec{r},\vec{r'}が同一のセルに存在する場合)
+G(E, \vec{r},\vec{r}') =　Z^{n}(E,\vec{r}) \tau^{nn} (E) \tilde{Z}^{n \bullet}(E,\vec{r'}) - Z^{n}(E,\vec{r})  \tilde{J}^{n \bullet}(E,\vec{r'})\ (\vec{r},\vec{r'}が同一のセル\ n\ に存在する場合)
 ```
 もしくは
 ```math
 \begin{split}
-G(E, \vec{r},\vec{r}') =　Z^{n}(E,\vec{r}) \tau^{nm} (E) \tilde{Z}^{m \bullet}(E,\vec{r'})\ (\vec{r},\vec{r'}が異なるセルに存在する場合)
+G(E, \vec{r},\vec{r}') =　Z^{n}(E,\vec{r}) \tau^{nm} (E) \tilde{Z}^{m \bullet}(E,\vec{r'})\ (\vec{r},\vec{r'}が異なるセル\ n,m\ に存在する場合)
 \end{split}
 ```
-と表される。
-これらの式がKKR-GF法における最も重要な式である。
-実空間においてグリーン関数を求めることでDFTで中心的役割を果たす、電荷密度をグリーン関数から計算することが可能になる。
-以下では散乱経路行列、及び波動関数の導出方法及び物理的意味について説明し、その後グリーン関数がそれらの量で表示可能なことを導出する。
+と表される。ここで$` Z^{n}(E,\vec{r}), J^{n \bullet}(E,\vec{r'}) `$はサイトnにおけるシュレディンガー方程式に従う波動関数を表し($` \tilde{}\ , \bullet`$の意味は後述する。)、$`\tau(E)`$は散乱経路行列を表す。
+これらの式がKKR-GF法における最も重要な式である。以下では波動関数$` Z^{n}(E,\vec{r}), J^{n \bullet}(E,\vec{r'}) `$及び散乱経路行列$`\tau(E)`$の導出方法及び物理的意味について説明し、その後グリーン関数がそれらの量で表示可能なことを導出する。
 
 ## KKR-Green関数法におけるグリーン関数やSPOの計算
 KKR-Green関数法とは実空間における以下の微分方程式に従うグリーン関数を多重散乱理論に従い求める手法である。
-$$( z - H ) G(\vec{r},\vec{r}', z) = \delta (\vec{r} - \vec{r'})$$
+$` ( z - H ) G(\vec{r},\vec{r}', z) = \delta (\vec{r} - \vec{r'}) `$
 ここで$`H`$は一体のハミルトニアン(ただし、Hartree-FockやKohn-Sham方程式のハミルトニアンを考えることにより部分的に相関の効果を入れることを可能)である。 
 このグリーン関数は1粒子グリーン関数と呼ばれ、多くの1体演算子の期待値や厳密な応答関数を近似した量を取り出せる、いわば物理量の母関数のような重要な量である。(See AGD or Fetter-Walecka or M.Ogata)
 
