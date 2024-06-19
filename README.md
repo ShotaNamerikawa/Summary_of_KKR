@@ -12,7 +12,7 @@ KKR-Green関数法ではポテンシャルをオーバーラップしないよ�
 
 これは多重散乱理論を考える上で必要な条件となる。以下ではこれらの各ポテンシャルが占有する領域をセルと呼称する。
 ### KKR-Green関数法におけるグリーン関数
-KKR-Green関数法(以下KKR-GF法)は多重散乱理論に基づき、固体あるいは周期性のない原子や分子のクラスターの系のシュレディンガーあるいはディラック方程式のハミルトニアン$`H$`に対するグリーン関数,
+KKR-Green関数法(以下KKR-GF法)は多重散乱理論に基づき、固体あるいは周期性のない原子や分子のクラスターの系のシュレディンガーあるいはディラック方程式のハミルトニアン$`H`$に対するグリーン関数,
 ```math
 (z - H) G(z) = 1
 ```
@@ -20,12 +20,12 @@ KKR-Green関数法(以下KKR-GF法)は多重散乱理論に基づき、固体あ
 
 KKR-GF法ではグリーン関数は
 ```math
-G(E, \vec{r},\vec{r}') =　Z^{n}(E,\vec{r}) \tau^{nn} (E) \tilde{Z}^{n \bullet}(E,\vec{r'}) - Z^{n}(E,\vec{r})  \tilde{J}^{n \bullet}(E,\vec{r'}) (\vec{r},\vec{r'}が同一のセルに存在する場合)
+G(E, \vec{r},\vec{r}') =　Z^{n}(E,\vec{r}) \tau^{nn} (E) \tilde{Z}^{n \bullet}(E,\vec{r'}) - Z^{n}(E,\vec{r})  \tilde{J}^{n \bullet}(E,\vec{r'})\ (\vec{r},\vec{r'}が同一のセルに存在する場合)
 ```
 もしくは
 ```math
 \begin{split}
-G(E, \vec{r},\vec{r}') =　Z^{n}(E,\vec{r}) \tau^{nm} (E) \tilde{Z}^{m \bullet}(E,\vec{r'}) (\vec{r},\vec{r'}が異なるセルに存在する場合)
+G(E, \vec{r},\vec{r}') =　Z^{n}(E,\vec{r}) \tau^{nm} (E) \tilde{Z}^{m \bullet}(E,\vec{r'})\ (\vec{r},\vec{r'}が異なるセルに存在する場合)
 \end{split}
 ```
 と表される。
