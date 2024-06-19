@@ -25,7 +25,7 @@ G(E, \vec{r},\vec{r}') =　Z^{n}(E,\vec{r}) \tau^{nn} (E) \tilde{Z}^{n \bullet}(
 もしくは
 ```math
 \begin{split}
-G(E, \vec{r},\vec{r}') =　Z^{n}(E,\vec{r}) \tau^{nm} (E) \tilde{Z}^{m \bullet}(E,\vec{r'}) 
+G(E, \vec{r},\vec{r}') =　Z^{n}(E,\vec{r}) \tau^{nm} (E) \tilde{Z}^{m \bullet}(E,\vec{r'}) (\vec{r},\vec{r'}が異なるセルに存在する場合)
 \end{split}
 ```
 と表される。
