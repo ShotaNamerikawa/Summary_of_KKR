@@ -28,7 +28,7 @@ G(E, \vec{r},\vec{r}') =　Z^{n}(E,\vec{r}) \tau^{nn} (E) \tilde{Z}^{n \bullet}(
 G(E, \vec{r},\vec{r}') =　Z^{n}(E,\vec{r}) \tau^{nm} (E) \tilde{Z}^{m \bullet}(E,\vec{r'})\ (\vec{r},\vec{r'}が異なるセル\ n,m\ に存在する場合)
 \end{split}
 ```
-と表される。ここで$` Z^{n}(E,\vec{r}), J^{n \bullet}(E,\vec{r'}) `$はサイトnにおけるシュレディンガー方程式に従う波動関数を表し($` \tilde{}\ , \bullet`$の意味は後述する。)、$`\tau(E)`$は散乱経路行列を表す。
+と表される。ここで$` Z^{n}(E,\vec{r}), J^{n \bullet}(E,\vec{r'}) `$はサイトnにおけるシュレディンガーもしくはディラック方程式に従う波動関数を表し($` \tilde{}\ , \bullet`$の意味は後述する。)、$`\tau(E)`$は散乱経路行列を表す。
 これらの式がKKR-GF法における最も重要な式である。以下では波動関数$` Z^{n}(E,\vec{r}), J^{n \bullet}(E,\vec{r'}) `$及び散乱経路行列$`\tau(E)`$の導出方法及び物理的意味について説明し、その後グリーン関数がそれらの量で表示可能なことを導出する。
 
 ## KKR-Green関数法におけるグリーン関数やSPOの計算
