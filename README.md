@@ -94,7 +94,7 @@ t_n(z) &= V_n (1 - G_0(z)V_n)^{-1} \\
 ```math
 \begin{split}
 T(z) &= \sum_{i,j}{\tau_{i,j}(z)} \\
-\tau_{i,j}(z) &= t_i (z) \delta_{i,j} + t_i (z) \sum_{j}{(1-\delta_{i,j})G_0 (z) \tau_{i,j}(z)} \\
+\tau_{i,j}(z) &= t_i (z) \delta_{i,j} + t_i (z) \sum_{k}{(1-\delta_{i,k})G_0 (z) \tau_{k,j}(z)} \\
 \end{split}
 ```
 であることが示される。ただし、$`(1-\delta_{i,j})`$の因子は連続するサイトの和の制限を守るために導入した。
