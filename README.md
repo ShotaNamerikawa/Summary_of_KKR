@@ -33,10 +33,8 @@ KKR-Green関数法(以下KKR-GF法)は多重散乱理論に基づき、固体あ
 G(E, \vec{r},\vec{r}') =　Z^{n}(E,\vec{r}) \tau^{nm} (E) \tilde{Z}^{m \bullet}(E,\vec{r'}) - \delta_{mn} (\Theta(\vec{r'} - \vec{r}) Z^{n}(E,\vec{r})  \tilde{J}^{n \bullet}(E,\vec{r'}) + \Theta(\vec{r} - \vec{r'}) Z^{n}(E,\vec{r'})  \tilde{J}^{n \bullet}(E,\vec{r}))　
 ```
 と表される。(See Faulkner and Stocks, 1980)ここで$` Z^{n}(E,\vec{r}), J^{n}(E,\vec{r'}) `$はセルn内部でシュレディンガー(ディラック)方程式に従い、外部で
-```
-\begin{split}
+```math
 Z(E,\vec{r}) &= j(E,\vec{r}) + t^{-1](E) h^{+}(E,\vec{r}) 
-\end{split}
 ```
 と振る舞う波動関数を
 
