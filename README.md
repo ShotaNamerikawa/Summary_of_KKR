@@ -34,7 +34,7 @@ G(E, \vec{r},\vec{r}') =　Z^{n}(E,\vec{r}) \tau^{nm} (E) \tilde{Z}^{m \bullet}(
 ```
 と表される。(See Faulkner and Stocks, 1980) ここで$` Z^{n}(E,\vec{r}), J^{n}(E,\vec{r'}) `$はセルn内部でシュレディンガー(ディラック)方程式に従い、外部で
 ```math
-Z(E,\vec{r}) = j(E,\vec{r}) -i\alpha t^{-1}(E) h^{+}(E,\vec{r}) 
+Z(E,\vec{r}) = j(E,\vec{r})t^{-1}(E) -i\alpha h^{+}(E,\vec{r}) 
 ```
 と振る舞う波動関数を
 
