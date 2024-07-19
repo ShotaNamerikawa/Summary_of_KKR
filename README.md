@@ -10,10 +10,10 @@ KKR-Green関数法についてまとめることを目的とする。
 ### KKR-Green関数法におけるポテンシャル配置
 KKR-Green関数法ではポテンシャルをオーバーラップしないようにサイト$`n`$にポテンシャルを
 ```math
-V = \sum_{n}{v_n (\vec{r})}
-```
-```math
-v_n (\vec{r}) v_m (\vec{r}) = 0\ (n \neq m)
+\begin{split}
+V &= \sum_{n}{v_n (\vec{r})} \\
+v_n (\vec{r}) v_m (\vec{r}) &= 0\ (n \neq m)
+\end{split}
 ```
 と配置する。
 これは多重散乱理論を考える上で必要な条件となる。以下ではこれらの各ポテンシャルが占有する領域$`n`$をセルと呼称する。
@@ -32,9 +32,9 @@ KKR-Green関数法(以下KKR-GF法)は多重散乱理論に基づき、固体あ
 ```math
 G(E, \vec{r},\vec{r}') =　Z^{n}(E,\vec{r}) \tau^{nm} (E) \tilde{Z}^{m \bullet}(E,\vec{r'}) - \delta_{mn} (\Theta(\vec{r'} - \vec{r}) Z^{n}(E,\vec{r})  \tilde{J}^{n \bullet}(E,\vec{r'}) + \Theta(\vec{r} - \vec{r'}) Z^{n}(E,\vec{r'})  \tilde{J}^{n \bullet}(E,\vec{r}))　
 ```
-と表される。(See Faulkner and Stocks, 1980)ここで$` Z^{n}(E,\vec{r}), J^{n}(E,\vec{r'}) `$はセルn内部でシュレディンガー(ディラック)方程式に従い、外部で
+と表される。(See Faulkner and Stocks, 1980) ここで$` Z^{n}(E,\vec{r}), J^{n}(E,\vec{r'}) `$はセルn内部でシュレディンガー(ディラック)方程式に従い、外部で
 ```math
-Z(E,\vec{r}) = j(E,\vec{r}) + t^{-1](E) h^{+}(E,\vec{r}) 
+Z(E,\vec{r}) = j(E,\vec{r}) -i\alpha t^{-1}(E) h^{+}(E,\vec{r}) 
 ```
 と振る舞う波動関数を
 
